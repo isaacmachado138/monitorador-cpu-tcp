@@ -39,7 +39,7 @@ class Connection extends Thread {
         }
     }
 
-    public void run() {
+    public void run() { //Declara método vazio
         try {
             String data = in.readUTF(); // Lê a mensagem enviada pelo cliente
             System.out.println("MENSAGEM RECEBIDA: " + data); // Exibe a mensagem recebida
